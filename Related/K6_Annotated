@@ -1,0 +1,37 @@
+graph G {
+    rankdir="LR";
+    fontname="sans-serif";
+    splines="true";
+    penwidth="0.1";
+    edge [fontname="sans-serif", 
+          fontsize=10, 
+          dir="none", 
+          weight="1", 
+          label="100"];
+    node [style="filled", 
+          fixedsize="true", 
+          fontname="sans-serif", 
+          width="1.35", 
+          fontsize=13];
+    "1" [label="Lady Sabine"];
+    "2" [label="Sir Karl"];
+    "3" [label="Dona Fiona"];
+    "4" [label="Lord Galen"];
+    "5" [label="Mistress Patrice"];
+    "6" [label="Bye"];
+    "1" -- "2";
+    "1" -- "3";
+    "1" -- "4";
+    "1" -- "5";
+    "1" -- "6";
+    "2" -- "3";
+    "2" -- "4";
+    "2" -- "5";
+    "2" -- "6";
+    "3" -- "4";
+    "3" -- "5";
+    "3" -- "6";
+    "4" -- "5";
+    "4" -- "6";
+    "5" -- "6";
+}
